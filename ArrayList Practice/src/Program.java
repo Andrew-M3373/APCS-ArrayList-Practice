@@ -1,9 +1,9 @@
 
 public class Program {
 	
-	private static String title;
-	private static String genre;
-	private static int numberOfSeasonsAired;
+	private String title;
+	private String genre;
+	private int numberOfSeasonsAired;
 	
 	public Program(String t, String g, int n) {
 		title = t; 
@@ -11,28 +11,28 @@ public class Program {
 		numberOfSeasonsAired = n;
 	}
 
-	public static String getTitle() {
+	public String getTitle() {
 		return title;
 	}
 
-	public static void setTitle(String title) {
-		Program.title = title;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public static String getGenre() {
+	public String getGenre() {
 		return genre;
 	}
 
-	public static void setGenre(String genre) {
-		Program.genre = genre;
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 
-	public static int getNumberOfSeasonsAired() {
+	public int getNumberOfSeasonsAired() {
 		return numberOfSeasonsAired;
 	}
 
-	public static void setNumberOfSeasonsAired(int numberOfSeasonsAired) {
-		Program.numberOfSeasonsAired = numberOfSeasonsAired;
+	public void setNumberOfSeasonsAired(int numberOfSeasonsAired) {
+		this.numberOfSeasonsAired = numberOfSeasonsAired;
 	}
 	
 	
