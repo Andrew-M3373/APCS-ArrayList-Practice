@@ -1,9 +1,9 @@
 
 public class Program {
 	
-	private static String title;
-	private static String genre;
-	private static int numberOfSeasonsAired;
+	private String title;
+	private String genre;
+	private int numberOfSeasonsAired;
 	
 	public Program(String t, String g, int n) {
 		title = t; 
